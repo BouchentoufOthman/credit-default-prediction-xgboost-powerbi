@@ -53,6 +53,8 @@ These visualizations provide insight into:
 
 ### **2. Business Intelligence Dashboard (Power BI)**
 
+![BI Dashboard](dashboard.JPG)
+
 To complement the ML results, an interactive **Power BI dashboard** was built for stakeholders to monitor portfolio health.
 
 #### **Dashboard Features**
