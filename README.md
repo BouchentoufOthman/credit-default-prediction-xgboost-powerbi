@@ -1,7 +1,10 @@
 # Credit Default Prediction – XGBoost & Power BI Dashboard 📊
 
 This project tackles the challenge of predicting **loan defaults** — a critical task in financial risk assessment.  
-It combines **machine learning (XGBoost with SMOTE)** to handle imbalanced data and a **Power BI dashboard** to provide actionable insights for stakeholders.
+It combines a **machine learning model (XGBoost with SMOTE)** to handle imbalanced data and a **Power BI dashboard** to provide actionable insights for stakeholders.
+
+We trained a model to **classify clients based on the likelihood of defaulting on a loan**, using engineered features from financial and behavioral data.  
+The model outputs a probability score for each client, allowing threshold-based decisions and prioritization of high-risk cases.
 
 ---
 
