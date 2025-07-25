@@ -76,7 +76,7 @@ To complement the ML results, an interactive **Power BI dashboard** was built fo
 ---
 
 ## 📊 Dataset
-- **Source:** [Kaggle Dataset](https://lnkd.in/eZwZ4P5y)
+- **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/kapturovalexander/bank-credit-risk-assessment/data)
 - Contains financial attributes like `DEBT`, `OVERDUE_DAYS`, `INITIAL_LIMIT`, `INCOME`, `AGE`, `PDN`, and more.
 
 ---
@@ -86,13 +86,7 @@ To complement the ML results, an interactive **Power BI dashboard** was built fo
 - **Visualization:** matplotlib, seaborn
 - **Business Intelligence:** Power BI
 - **Notebook:** Kaggle, Jupyter
-
----
-
-## 📎 Additional Links
-- [Kaggle Notebook](https://lnkd.in/e92xcVWQ)  
-- [Dataset](https://lnkd.in/eZwZ4P5y)  
-
+  
 ---
 
 ## ✨ Key Takeaways
@@ -105,4 +99,4 @@ To complement the ML results, an interactive **Power BI dashboard** was built fo
 
 ## 👤 Author
 **Bouchentouf Othman**  
-[LinkedIn](https://www.linkedin.com/in/othman-bouchentouf/)
+[LinkedIn](www.linkedin.com/in/bouchentoufothman)
