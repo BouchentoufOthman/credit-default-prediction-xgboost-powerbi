@@ -71,7 +71,7 @@ To complement the ML results, an interactive **Power BI dashboard** was built fo
 - **Interactive Filters (Slicers):**
   - AgeGroup, RiskCategory, Region
 
-🔗 **[View the Interactive Power BI Report](PUT-YOUR-POWER-BI-PUBLIC-LINK-HERE)**
+🔗 **[View the Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiZDYxOWRjOTgtNjBhZC00MGQ4LTllZmQtNzFhOWQ4MDE3ZTQwIiwidCI6IjcwMjVlMDRjLTcwY2EtNDhiZi1hYjdiLTczOTU0Y2I4NDZhZCIsImMiOjl9)**
 
 ---
 
