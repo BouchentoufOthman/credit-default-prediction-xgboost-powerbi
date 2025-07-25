@@ -54,4 +54,34 @@ To complement the ML results, an interactive **Power BI dashboard** was built fo
 
 ---
 
-## 📂 Repository Structure
+## 📊 Dataset
+- **Source:** [Kaggle Dataset](https://lnkd.in/eZwZ4P5y)
+- Contains financial attributes like `DEBT`, `OVERDUE_DAYS`, `INITIAL_LIMIT`, `INCOME`, `AGE`, `PDN`, and more.
+
+---
+
+## 🛠️ Technologies Used
+- **Python:** pandas, numpy, scikit-learn, XGBoost, imbalanced-learn
+- **Visualization:** matplotlib, seaborn
+- **Business Intelligence:** Power BI
+- **Notebook:** Kaggle, Jupyter
+
+---
+
+## 📎 Additional Links
+- [Kaggle Notebook](https://lnkd.in/e92xcVWQ)  
+- [Dataset](https://lnkd.in/eZwZ4P5y)  
+
+---
+
+## ✨ Key Takeaways
+- Demonstrates a complete end-to-end **data science workflow** from preprocessing to dashboarding.
+- Shows how to handle **imbalanced datasets** using SMOTE.
+- Highlights the importance of **recall in financial risk detection**.
+- Integrates **Power BI for business-friendly visualization** of the results.
+
+---
+
+## 👤 Author
+**Bouchentouf Othman**  
+[LinkedIn](https://www.linkedin.com/in/othman-bouchentouf/)
