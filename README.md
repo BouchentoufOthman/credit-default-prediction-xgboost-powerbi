@@ -33,14 +33,14 @@ It combines **machine learning (XGBoost with SMOTE)** to handle imbalanced data 
 
 Here are some key visualizations from the model training and validation process:
 
-| Important Features | ROC Curve | Confusion metrics |
+| Important Features | ROC Curve | Confusion matrix |
 |----------------|--------------------|-------------------------|
-| ![Training Metrics](images/training_metrics.png) | ![Validation Metrics](images/validation_metrics.png) | ![Threshold Optimization](images/threshold_optimization.png) |
+| ![Important Features](top15features.JPG) | ![ROC Curve](ROC.JPG) | ![Confusion Matrix](matrix.JPG) |
 
 These visualizations provide insight into:
-- **Training performance** across epochs or parameter settings.
-- **Validation curves** for precision, recall, F1-score.
-- The effect of varying the **classification threshold** on performance metrics, crucial for imbalanced datasets.
+- **Most influential features** in the model, helping interpret predictions and feature importance.
+- **ROC Curve**, showing the trade-off between true positive rate and false positive rate.
+- **Confusion Matrix**, visualizing classification performance and the balance between correctly and incorrectly predicted classes.
 
 ---
 
