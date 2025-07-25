@@ -27,6 +27,22 @@ It combines **machine learning (XGBoost with SMOTE)** to handle imbalanced data 
   - **Default Class Precision**: 0.81  
   - **Default Class Recall**: 0.61  
   - **F1-score**: 0.69  
+---
+
+## 📊 Visualizations
+
+Here are some key visualizations from the model training and validation process:
+
+| Important Features | ROC Curve | Confusion metrics |
+|----------------|--------------------|-------------------------|
+| ![Training Metrics](images/training_metrics.png) | ![Validation Metrics](images/validation_metrics.png) | ![Threshold Optimization](images/threshold_optimization.png) |
+
+These visualizations provide insight into:
+- **Training performance** across epochs or parameter settings.
+- **Validation curves** for precision, recall, F1-score.
+- The effect of varying the **classification threshold** on performance metrics, crucial for imbalanced datasets.
+
+---
 
 > These metrics highlight the trade-off between precision and recall in imbalanced datasets, ensuring that more defaults are correctly identified (high recall), even if it means a few false positives.
 
