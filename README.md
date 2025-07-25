@@ -47,7 +47,7 @@ These visualizations provide insight into:
 
 ---
 
-> These metrics highlight the trade-off between precision and recall in imbalanced datasets, ensuring that more defaults are correctly identified (high recall), even if it means a few false positives.
+> These metrics highlight the trade-off between precision and recall in imbalanced datasets, ensuring that more defaults are correctly identified (high recall), even if it means a few false positives. Despite the model achieving high overall performance, the recall and F1-score for the default class (1) are naturally lower compared to the non-default class (0). This is expected due to the strong class imbalance in the original dataset, where only about 4% of the records represent defaults. In the context of bank credit risk assessment, this imbalance is common — most clients repay their loans on time, while only a small fraction default. Even after applying SMOTE to balance the training data, perfect detection of the minority class remains challenging. However, the model still performs well, achieving a recall of 60% and precision of 81% for the default class, which is a solid result in financial applications where predicting defaults is more critical than achieving perfect accuracy.
 
 ---
 
@@ -60,14 +60,14 @@ To complement the ML results, an interactive **Power BI dashboard** was built fo
   - High Risk Client Rate
   - Overdue Client Rate
   - Average PDN (Probability of Default)
-  - Average Debt-to-Income Ratio
+  - Number of Clients
 - **Visuals:**
-  - Risk Category breakdown by Age Group, Industry, and Family Status
-  - Debt Pressure Index analysis
-  - Client demographics (Sex, Education, Family Status)
-  - Geographic analysis by `LV_AREA` and `LV_SETTLEMENTNAME`
+  - Risk Category breakdown by Age Group, and risk level.
+  - Income analysis by Age Group and Education Level
+  - Client demographics by Gender and Education Level
+  - Geographic analysis by Region
 - **Interactive Filters (Slicers):**
-  - AgeGroup, RiskCategory, Industry, Location
+  - AgeGroup, RiskCategory, Region
 
 🔗 **[View the Interactive Power BI Report](PUT-YOUR-POWER-BI-PUBLIC-LINK-HERE)**
 
